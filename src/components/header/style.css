@@ -1,0 +1,36 @@
+
+.custom-width {
+  width: 60%;
+}
+
+/* sm: ≥640px */
+@media (min-width: 640px) {
+  .custom-width { width: 50%; }
+}
+
+/* md: ≥768px */
+@media (min-width: 768px) {
+  .custom-width {
+    width: 30%;
+    font-size: 18px;
+ }
+  
+}
+
+/* lg: ≥1024px */
+@media (min-width: 1024px) {
+  .custom-width { width: 20%; }
+}
+
+/* xl: ≥1280px */
+@media (min-width: 1280px) {
+  .custom-width { width: 60%; }
+}
+
+/* 2xl: ≥1536px */
+@media (min-width: 1536px) {
+  .custom-width { width: 60%; }
+}
+.cursor-pointer {
+  cursor: pointer;
+}

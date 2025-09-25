@@ -1,0 +1,6 @@
+- npm install react-router-dom
+- npm install react-icons
+- npm install axios
+- npm install react-icons --save
+- npm install tailwindcss @tailwindcss/vite
+- npm install @ant-design/icons@5.x --save
