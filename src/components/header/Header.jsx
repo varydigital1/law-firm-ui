@@ -98,9 +98,12 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <ul className="md:hidden flex flex-col space-y-2 px-4 py-4  text-base sm:text-lg">
+        {/* Mobile Menu with slow transition */}
+        <div
+          className={`md:hidden transition-all duration-700 ease-in-out ${isMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'} overflow-hidden`}
+          style={{ zIndex: 50, position: 'relative' }}
+        >
+          <ul className="flex flex-col space-y-2 px-4 py-4 text-base sm:text-lg">
             {menuItems.map((item) => (
               <li key={item.name}>
                 <Link
@@ -109,7 +112,7 @@ const Header = () => {
                     setActive(item.path);
                     setIsMenuOpen(false); // Close menu after click
                   }}
-                  className={`block py-2 ${
+                  className={`block py-2 z-40 ${
                     active === item.path
                       ? "text-blue-900 font-bold"
                       : "text-gray-700 hover:text-[#8B0000]"
@@ -141,7 +144,7 @@ const Header = () => {
               </div>
             </li>
           </ul>
-        )}
+        </div>
       </nav>
     </header>
   );
