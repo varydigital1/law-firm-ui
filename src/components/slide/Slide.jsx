@@ -63,7 +63,7 @@ const Slide = () => {
                             2xl:w-[148px] 2xl:h-[52px] 2xl:p-[15px] items-center justify-center
                             xl:w-[146px] xl:h-[50px] xl:p-[15px]
                             lg:w-[144px] lg:h-[48px] lg:p-[14px]
-                            md:w-[140px] md:h-[46px] md:p-[13px]
+                            md:w-[115px] md:h-[36px] md:p-[13px]
                             sm:w-[130px] sm:h-[40px] sm:p-[10px]
                             w-[80px] h-[25px]  btn-more"
                             // style={{ fontSize: '18px', padding: '0' }}

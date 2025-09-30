@@ -46,11 +46,11 @@ const HomePage = () => {
               2xl:w-[148px] 2xl:h-[52px] 2xl:p-[15px] items-center justify-center font-[Inria_Serif]
                             xl:w-[146px] xl:h-[50px] xl:p-[15px]
                             lg:w-[144px] lg:h-[48px] lg:p-[14px]
-                            md:w-[140px] md:h-[46px] md:p-[13px]
+                            md:w-[115px] md:h-[36px] md:p-[13px]
                             sm:w-[130px] sm:h-[40px] sm:p-[10px]
                             w-[80px] h-[25px]  btn-more"
             >
-              Show more <BsChevronRight className="w-3 h-3 sm:w-5 sm:h-5 ml-1 mt-[1px] text-white"/>
+              Show more <BsChevronRight className="w-3 h-3 sm:w-5 sm:h-5  mt-[1px] text-white"/>
             </button>
           </div>
         </div>
@@ -58,11 +58,13 @@ const HomePage = () => {
         
       </div>
       <section
-          className="relative w-full bg-[#F5F5F5] bg-no-repeat bg-top bg-cover h-auto 2xl:pb-2 xl:pb-2 lg:pb-2 md:pb-2 sm:pb-2 2xl:pl-10 xl:pl-10 lg:pl-10 md:pl-10 sm:pl-10 
+          className="relative w-full bg-[#F5F5F5] bg-no-repeat bg-top bg-cover h-auto 2xl:pb-2 xl:pb-2 lg:pb-2 md:pb-2 sm:pb-2 2xl:pl-10 xl:pl-9 lg:pl-10 md:pl-10 sm:pl-10
           background-image
           "
           >
-          <div className=' justify-between items-right mt-25 mt-15 md:px-0'>
+          <div className=' justify-between items-right mt-2 
+          2xl:mt-25 xl:mt-25 lg:mt-25 md:mt-10 sm:mt-25
+          md:px-0'>
               <TeamSlide  />
           </div>
           {/* <TeamOut/> */}
