@@ -1,0 +1,83 @@
+.main-contact{
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+    
+}
+.submain-contact{
+    font-size: 6px;
+    font-weight: normal;
+    margin: 0;
+}
+.line-width{
+    margin: 0;
+    padding: 0;
+}
+.icon-logo{
+    font-size: 15px;
+    
+}
+/* sm: ≥640px */
+@media (min-width: 640px) {
+  .main-contact{
+    font-size: 10px;  
+}
+.submain-contact{
+    font-size: 8px;
+}
+.icon-logo{
+    font-size: 24px;
+}
+}
+
+/* md: ≥768px */
+@media (min-width: 768px) {
+  .main-contact{
+    font-size: 12px;
+}
+.submain-contact{
+    font-size: 10px;
+}
+.icon-logo{
+    font-size: 26px;
+}
+}
+
+/* lg: ≥1024px */
+@media (min-width: 1024px) {
+  .main-contact{
+    font-size: 14px;  
+}
+.submain-contact{
+    font-size: 12px;
+}
+.icon-logo{
+    font-size: 28px;
+}
+}
+
+/* xl: ≥1280px */
+@media (min-width: 1280px) {
+  .main-contact{
+    font-size: 16px;
+}
+.submain-contact{
+    font-size: 14px;
+}
+.icon-logo{
+    font-size: 30px;
+}
+}
+
+/* 2xl: ≥1536px */
+@media (min-width: 1536px) {
+  .main-contact{
+    font-size: 16px;  
+}
+.submain-contact{
+    font-size: 14px;
+}
+.icon-logo{
+    font-size: 30px;
+}
+}

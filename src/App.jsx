@@ -7,6 +7,7 @@ import ContactPage from './page/ContactPage';
 import DocumentPage from './page/DocumentPage';
 import NotFoundPage from './page/NotFoundPage';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import './App.css'
 
 function App() {
@@ -30,7 +31,9 @@ function App() {
           <Route path="/documents" element={<DocumentPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+        {!hideHeader && <Footer/>}
       </>
+      
     );
   }
   return (
