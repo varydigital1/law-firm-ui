@@ -10,11 +10,10 @@
     margin: 0;
 }
 .line-width{
-    margin: 0;
-    padding: 0;
+    height: 50%;
 }
 .icon-logo{
-    font-size: 15px;
+    font-size: 10px;
     
 }
 /* sm: ≥640px */
@@ -26,7 +25,10 @@
     font-size: 8px;
 }
 .icon-logo{
-    font-size: 24px;
+    font-size: 20px;
+}
+.line-width{
+    height: 60%;
 }
 }
 
@@ -39,7 +41,10 @@
     font-size: 10px;
 }
 .icon-logo{
-    font-size: 26px;
+    font-size: 20px;
+}
+.line-width{
+    height: 70%;
 }
 }
 
@@ -54,6 +59,9 @@
 .icon-logo{
     font-size: 28px;
 }
+.line-width{
+    height: 80%;
+}
 }
 
 /* xl: ≥1280px */
@@ -67,6 +75,9 @@
 .icon-logo{
     font-size: 30px;
 }
+.line-width{
+    height: 100%;
+}
 }
 
 /* 2xl: ≥1536px */
@@ -79,5 +90,8 @@
 }
 .icon-logo{
     font-size: 30px;
+}
+.line-width{
+    height: 100%;
 }
 }

@@ -15,11 +15,9 @@ function Footer() {
       {/* Top Section */}
       <div
         className="container mx-auto grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-0 border-b border-gray-600 
-        2xl:mt-10 xl:mt-8 lg:mt-3
-        2xl:pb-10 xl:pb-10 lg:pb-8 md:pb-7 sm:pb-5 pb-4
+        2xl:mt-6 xl:mt-6 lg:mt-3 md:mt-0 sm:mt-[-10px] mt-[-20px]
+        2xl:pb-10 xl:pb-10 lg:pb-4 md:pb-4 sm:pb-3 pb-1
         grid-cols-3
-        md:bg-red-500
-        xl:bg-green-500
         "
       >
         {/* Location */}
@@ -35,8 +33,8 @@ function Footer() {
               #371 7th Abc, Defg Hijk, NY 10001
             </p>
           </div>
-          <div className="absolute right-0 h-full border-l border-gray-600 line-width 
-           2xl:block xl:block lg:block md:block sm:block
+          <div className="absolute right-0  border-l border-gray-600 line-width 
+           2xl:block xl:block lg:block md:block sm:block line-width
           "></div>
         </div>
         {/* Phone */}
@@ -53,8 +51,8 @@ function Footer() {
               +987 654 321
             </p>
           </div>
-          <div className="absolute right-0 h-full border-l border-gray-600
-           2xl:block xl:block lg:block md:block sm:block
+          <div className="absolute right-0  border-l border-gray-600
+           2xl:block xl:block lg:block md:block sm:block line-width
           "></div>
         </div>
         {/* Email */}
@@ -77,7 +75,7 @@ function Footer() {
       <div className="container mx-auto  grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-8 grid-cols-2  relative">
         <div className="py-7">
           <h2 className="text-white 
-          2xl:text-[24px] xl:text-[24px] lg:text-[22px] md:text-[20px] sm:text-[18px] text-16px
+          2xl:text-[24px] xl:text-[24px] lg:text-[22px] md:text-[20px] sm:text-[18px] text-[16px]
            font-bold">LOGO COMPANY</h2>
           <p className="mt-2 text-gray-400 
           2xl:text-[16px] xl:text-[16px] lg:text-[14px] md:text-[12px] sm:text-[10px] text-[8px]
